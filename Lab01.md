@@ -1,7 +1,7 @@
 ## Lab 01
 
 - Name: Liam O'Leary
-- Email: Olearyl2024@outlook.com
+- Email: Oleary.23@wright.edu
 
 ## Part 1 - GitHub Profile
 
@@ -14,7 +14,7 @@
 | help    | man         |   displays help     |
 | Get-Location |    |    gets path for SYS 32  |
 | Get-ChildItem | ls    |    tons of files i honestly don't know looks like windows files   |
-|    |        |    makes a directory    |
+|  mkdir  |    mkdir    |    makes a directory    |
 | Set-Location | cd     |     sets where directory is located   |
 | New-Item | touch      |    new item like a directory  or file |
 | Move-Item | mv        |    moving item within or outside directory    |
