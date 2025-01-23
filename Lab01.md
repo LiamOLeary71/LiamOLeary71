@@ -1,26 +1,26 @@
 ## Lab 01
 
-- Name:
-- Email:
+- Name: Liam O'Leary
+- Email: Olearyl2024@outlook.com
 
 ## Part 1 - GitHub Profile
 
-1. [your_github_username_here Profile](FIXTHISURL-https://github.com/your_username)
+1. [ LiamOLeary71 Profile](https://github.com/LiamOLeary71)
 
 ## Part 2 - Research
 
 | Windows | Linux / Mac | Action |
 | ---     | ---         | ---    |
-| help    | man         |        |
-| Get-Location | pwd    |        |
-| Get-ChildItem | ls    |        |
-| mkdir   | mkdir       |        |
-| Set-Location | cd     |        |
-| New-Item | touch      |        |
-| Move-Item | mv        |        |
-| Copy-Item | cp        |        |
-| Remove-Item | rm      |        |
-| notepad.exe | vim     |        |
+| help    | man         |   displays help     |
+| Get-Location |    |    gets path for SYS 32  |
+| Get-ChildItem | ls    |    tons of files i honestly don't know looks like windows files   |
+|    |        |    makes a directory    |
+| Set-Location | cd     |     sets where directory is located   |
+| New-Item | touch      |    new item like a directory  or file |
+| Move-Item | mv        |    moving item within or outside directory    |
+| Copy-Item | cp        |     copying item within directory   |
+| Remove-Item | rm      |     removing an item   |
+| notepad.exe | vim     |   notepad     |
 
 ## Part 3 - Command Line Navigation
 
@@ -29,7 +29,7 @@ My OS is:
 - [] Linux
 - [] Mac
 
-My Command Line Shell is: 
+My Command Line Shell is: power-shell
 
 ### Navigating My OS on the Command Line
 
@@ -42,7 +42,7 @@ My Command Line Shell is:
 7. Move the file named `test.txt` into `DirA`:
 8. Contents of `test.txt`:
 ```
-Put your words here
+Lots of words just huge amount of words enough words that it is a lot more words than the word words lots of words though in this words word word teehee
 ```
 9. Make a copy of `test.txt` named `copy.txt` in `DirA`:
 10. View the contents of `DirA`: 
