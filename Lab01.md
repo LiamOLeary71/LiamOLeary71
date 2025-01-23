@@ -12,7 +12,7 @@
 | Windows | Linux / Mac | Action |
 | ---     | ---         | ---    |
 | help    | man         |   displays help     |
-| Get-Location |    |    gets path for SYS 32  |
+| Get-Location |  cmd  |    gets path for SYS 32  |
 | Get-ChildItem | ls    |    tons of files i honestly don't know looks like windows files   |
 |  mkdir  |    mkdir    |    makes a directory    |
 | Set-Location | cd     |     sets where directory is located   |
