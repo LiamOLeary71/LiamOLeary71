@@ -1,27 +1,27 @@
 ## Lab 02
 
-- Name:
-- Email
+- Name: liam o'leary
+- Email oleary.23@wright.edu
 
 ## Part 1 Answers
 
 Command to SSH to AWS instance:
 ```
-[Place your ssh command here]
+[ssh -i C:\users\olear\labsuser ec2-olear@52.70.100.248]
 ```
 
 ## Part 2 Answers
 
 1. `chmod u+r bubbles.txt`
-    - Means: 
+    - Means: Allows file owner(u) read(r) permissions on the bubbles file
 2. `chmod u=rw,g-w,o-x banana.cabana`
-    - Means: 
+    - Means: allows file owner(u) read(r) and write(w) permissions while removing write permissions from the group(g) and removes execute(x) permissions to others(o) 
 3. `chmod a=w snow.md`
-    - Means: 
+    - Means: allows all(a) users only writing(w) permissions
 4. `chmod 751 program`
-    - Means: 
+    - Means: owner has read(r), write(w), and execute(x) permissions(7), group has read, and write(5), others have execute permissions(1)
 5. `chmod -R ug+w share`
-    - Means: 
+    - Means: -R gives user(u) and group(g) write permissions on share
 
 ## Part 3 Answers
 
