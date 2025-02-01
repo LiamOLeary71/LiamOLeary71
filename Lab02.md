@@ -25,34 +25,34 @@ Command to SSH to AWS instance:
 
 ## Part 3 Answers
 
-1. Command to create new user: 
-2. Path to user's home directory: 
-3. Evaluate if `ubuntu` can add files to user's home directory:
+1. Command to create new user: sudo useradd new_user
+2. Path to user's home directory: echo Home
+3. Evaluate if `ubuntu` can add files to user's home directory:ls -ld /home/user
 4. Command to switch to user:
-5. Command(s) to go to user's home directory:
-6. Evaluate if user can add files to user's home directory:
-7. Command to switch to `ubuntu`:
-8. Command to return to `ubuntu` home directory: 
+5. Command(s) to go to user's home directory: cd /home/user
+6. Evaluate if user can add files to user's home directory: ls -l /home/user/testfile
+7. Command to switch to `ubuntu`: sudo su -ubuntu
+8. Command to return to `ubuntu` home directory: cd~
 
 ## Part 4 Answers
 
 For each, write the command used or answer the question posed.
 
-1. Command to create group named `crew`:
-2. Command(s) to add `ubuntu` & user to group `crew`:
-3. Command to modify `share` to have group ownership of `crew`:
-4. Command to switch to user:
-5. Command to add file to `share`: 
-6. Evaluate why these steps allowed the above action:
+1. Command to create group named `crew`: sudo groupadd crew
+2. Command(s) to add `ubuntu` & user to group `crew`: sudo usermod -aG crew ubutu, sudo usermod -aG crew new_user
+3. Command to modify `share` to have group ownership of `crew`: sudo chown :crew /path
+4. Command to switch to user: sudo su -new_user
+5. Command to add file to `share`: touch /path.../newfile
+6. Evaluate why these steps allowed the above action: the group crew was created, ubuntu user was added to crew, shared directory, crew and others can now add files and share
 
 ## Part 5 Answers
 
 For each, write the command used or answer the question posed.
 
-1. Command to create file using `sudo`: 
-2. Evaluate (in plain text) the permission of the file: 
-3. Provide a method to edit the file without modifying permissions: 
-4. Command(s) to modify permissions:
+1. Command to create file using `sudo`: sudo touch /path.../file.txt
+2. Evaluate (in plain text) the permission of the file: ls -l /path.../file.txt
+3. Provide a method to edit the file without modifying permissions: sudo name /path...file.txt
+4. Command(s) to modify permissions: sudo chmod u+x /path...file.txt
 
 ## Citations
 
